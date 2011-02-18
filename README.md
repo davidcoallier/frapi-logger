@@ -4,6 +4,9 @@ Frapi Logger Plugin
 Third party services like http://apigee.com and http://mashery.com are services we usually strongly recommend. However some people like to manage all this because
 sending data to or going through a third party provider is sometimes an area of concern.
 
+Moreover, we strongly recommend you use an asynchroneous logging solution like rsyslog-mysql or some sort of async logging system that will never impact the performance
+of your API. Using this plugin might have very negative implications on your API's performances.
+
 This very simple plugin will allow you to log the incoming requests to a simple database table so you can have your own analytics running in the background or even
 implemented in the administration interface if you want to (You have to do that though).
 
