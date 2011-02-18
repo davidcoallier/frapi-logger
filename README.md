@@ -13,7 +13,7 @@ In order to get the Logger running you have to do a few things. Follow the steps
 
   1. If it doesn't exist already, create a **Library** directory in your FRAPI CUSTOM_PATH. 
   2. In that **Library** directory, create the following directories **Frapi/Plugins/Logger**. This can be done by doing **mkdir -p Frapi/Plugins/Logger**
-  3. Copy the content of the Frapi/Plugins/Logger/* in this repository to the one you created in your FRAPI install. Alternatively you can do: ***cd FRAPI_CUSTOM_PATH; mkdir Library; cd Library; git clone git://github@github.com/davidcoallier/frapi-logger.git .***. The Dot at the end is important.
+  3. Copy the content of the *Frapi/Plugins/Logger/* in this repository to the one you created in your FRAPI install. Alternatively you can do: ***cd FRAPI_CUSTOM_PATH; mkdir Library; cd Library; git clone git://github@github.com/davidcoallier/frapi-logger.git .***. The Dot at the end is important.
   4. Import the setup.sql database file into your database (preferably with the same settings you set in your FRAPI admin)
   5. Add the following to your custom/AllFiles.php
 
