@@ -21,7 +21,10 @@ abstract class Frapi_Plugins_Logger_Base extends Frapi_Action
 {
     public function __construct()
     {
-        print_r($_SERVER);
-        die();
+        // Do something here. A config for a queuing system driver
+        // would be good.
+        // $obj = new Queue();
+        // $obj->pushJob('request', array('server' => $_SERVER, 'request' => $_REQUEST));
+        // gtfo
     }
 }
